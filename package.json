@@ -1,6 +1,6 @@
 {
   "name": "tap-fast-check",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Property testing for Tap using fast-check",
   "main": "dist/cjs/index.js",
   "types": "./dist/types/index.d.ts",

@@ -15,5 +15,5 @@ t.Test.prototype.addAssert("prop", 1, function <
   T,
 >(this: Tap.Test, prop: fc.IProperty<T>, message: string) {
   const {counterexample} = fc.check(prop)
-  return this.strictSame(counterexample, null, message)
+  return this.strictSame(null, counterexample, message)
 })
